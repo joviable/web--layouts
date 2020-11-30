@@ -1,0 +1,275 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+header{
+    padding-top: 30px;
+    min-height: 70px;
+}
+
+header a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: black;
+}
+header li {
+    float: left;
+    display: inline;
+    padding: 0px 10px 0px 10px
+    }
+header .branding{
+    float: left;
+    }
+.branding h1{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 10px;
+    }
+.branding p{
+    margin-top: -10px;
+    margin-bottom: 0;
+    padding-left: 10px;
+    color: rgb(202, 198, 198);
+    }
+.branding img{
+    height: 60px;
+    width: 60px;
+    padding: 0;
+    }
+header nav{
+    float: right;
+    margin-top: 10px;}
+.highlight a{
+        color: orangered;
+    }
+header a:hover{
+    color: wheat;
+    font-weight: bold
+}
+.showcase{
+    min-height: 400px;
+    background: url('../img/dogwoman.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: left;
+}
+.showcase h1{
+    margin-top: 100px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    
+}
+.showcase h2{
+    margin-top: 0px;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-bottom: 0;
+}
+.container h2 span{
+    color: orangered;
+    font-weight: bold;
+    font-size: 30px;
+}
+button{
+    background: orangered;
+    height: 38px;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.boxes{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.boxes .box{
+    float: left;
+    text-align: center;
+    width: 25%;
+    background: #f4f4f4;
+    padding: 10px;
+    border-right: rgb(218, 213, 213) solid 0.5px;
+    box-sizing: border-box;
+}
+.boxes .box i{
+    font-size: 40px;
+    margin-top: 20px;
+}
+.boxes .box:hover{
+    color: white;
+    background: orangered;
+    cursor: pointer;
+}
+.boxes .box1.hov:hover{
+    color: white;
+    opacity: 0.6;
+    cursor: pointer;
+}
+.boxes .box1{
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.boxes .box1 img{
+    width: 100%;
+    height: 200px;
+}
+.boxes .box1.hov .contain{
+    float: left;
+    background-color: #f4f4f4;
+    width: 100%;
+    box-sizing: border-box;
+}
+.boxes .box1 .contain.first{
+    font-size: 30px;
+    width: 20%;
+    border-right: white solid 3px;
+}
+.boxes .box1 .contain.second{
+    width: 80%;
+    text-align: center;
+}
+.contain.second h4{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.contain.second p{
+    margin-top: 0;
+    margin-bottom: 0;
+    color: gray;
+    font-weight: lighter;
+    font-style: italic;
+}
+.container .break{
+    text-align: center;
+    width: 100%;
+    background-color: #f4f4f4;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+.container .break h4{
+    
+    margin-bottom: 0;
+}
+.container .break p{
+    margin-top: 0px;
+    font-weight: lighter;
+    color: gray;
+}
+.boxes .box1 .contain{
+    float: left;
+    width: 100%;
+    box-sizing: border-box;}
+.box1 .contain.second.fit{
+    text-align: left;
+    float: left;
+}
+.contain.first .fa-stack-2x{
+    color: gray;
+}
+.contain.first .fa-stack{
+    font-size: large;
+    float: left;
+}
+.box1 .contain .third{
+    margin-top: 10px;
+    
+}
+.foot{
+    background: rgb(34, 34, 34);
+    color: grey;
+    font-size: small;
+    padding: 40px;
+    margin-top: 20px;
+} 
+.foot .box{
+    float: left;
+    text-align: left;
+    width: 25%;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+} 
+.box .search{
+    float: left;
+    box-sizing: border-box;
+    margin: 2px;
+    background: rgb(22, 22, 22);
+    min-width: 25%;
+    text-align: center;
+}
+.foot .box h3{
+    color: rgb(235, 230, 230);
+    font-weight: lighter;
+}
+.box .left{
+    float: left;
+    box-sizing: border-box;
+    width: 20%;
+}
+.box .right{
+    width: 80%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.foot .box i{
+    font-weight: bold;
+    font-size: x-large;
+    padding: 5px;
+}
+.box .search:hover{
+    background-color: orangered;
+    color: white;}
+.box .main.high:hover{
+    background-color: orchid;
+    color: white;
+}
+.box .main.high{
+    float: left;
+    box-sizing: border-box;
+    margin: 2px;
+}
+.footer{
+    background: black;
+    font-weight: lighter;
+    color: grey;
+}
+.footer .main p{
+    float: left;
+}
+.footer .main ul{
+    float: right;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.footer .main li {
+    float: left;
+    display: inline;
+    padding: 10px;
+    }
+.main p a{
+    text-decoration: none;
+    color: orangered;
+    font-weight: bold;
+    }

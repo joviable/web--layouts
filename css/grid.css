@@ -1,0 +1,59 @@
+/* grid code */
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column{
+    padding: 0 15px;
+}
+.second{
+    background-color: darkblue;
+}
+.column-1{
+    width: 8.33%;
+}
+
+.column-2{
+    width: 16.667%;
+}
+
+.column-3{
+    width: 25%;
+}
+
+.column-4{
+    width: 33.333%;
+}
+
+.column-5{
+    width: 41.667%;
+}
+
+.column-6{
+    width: 50%;
+}
+
+.column-7{
+    width: 58%;
+}
+
+.column-8{
+    width: 66.66%;
+}
+
+.column-9{
+    width: 14.998%;
+}
+
+.column-10{
+    width: 83.331%;
+}
+.column-11 {
+    width: 91.664%;
+}
+.column-12 {
+    width: 100%;
+}
+
+/* grid code */
